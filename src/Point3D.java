@@ -33,9 +33,10 @@ public class Point3D extends Point2D {
 
     @Override
     public String toString() {
-        return
-                "Point3D{"
-                        +super.toString()+
-                        "; z = " + z + '}'+'}';
+        return "("+getXYZ()[0]
+                + ", "
+                + getXYZ()[1]
+                + ","
+                + getXYZ()[2] + ")" ;
     }
 }
